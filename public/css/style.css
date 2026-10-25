@@ -1,0 +1,25 @@
+/* Custom utility styles if needed in the future */
+.hidden {
+  display: none;
+}
+
+/* Menghias scrollbar internal agar tipis dan elegan mirip standar iOS/modern web */
+.booking-step flex::-webkit-scrollbar,
+#stepContent::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+#stepContent::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+#stepContent::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 10px;
+}
+
+#stepContent::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
